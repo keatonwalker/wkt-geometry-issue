@@ -14,7 +14,6 @@ def get_wkt_error_oids(feature):
         row = None
         while True:
             try:
-                import pdb; pdb.set_trace()
                 row = cursor.next()
                 wkt = row[0]
                 # if row[1] == 3808:
